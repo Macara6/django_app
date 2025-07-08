@@ -76,8 +76,9 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-           "http://localhost:5173",
-           "https://drh-ont-vue-wx6k.vercel.app",
+            "https://drh-ont-vue-wx6k.vercel.app",
+            "https://drh-ont-vue-wx6k-git-recupanciennebr-rmacaras-projects.vercel.app",
+            "http://localhost:5173",
                # Adjust this to match your Vue.js app's URL
        ]
 CORS_ALLOW_ALL_ORIGINS = True
@@ -85,8 +86,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:5173",
     "https://drh-ont-vue-wx6k.vercel.app",
+    "https://drh-ont-vue-wx6k-git-recupanciennebr-rmacaras-projects.vercel.app",
+    "http://localhost:5173",
 ]
 
 
