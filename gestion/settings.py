@@ -122,13 +122,14 @@ REST_FRAMEWORK = {
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 #  data base in django
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+'''
 
 '''
 DATABASES = {
@@ -136,19 +137,19 @@ DATABASES = {
 }
 '''
 
-'''
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'gestion',
         'USER': 'root',
-        'PASSWORD':'root',
+        'PASSWORD':'adminuser@',
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
-'''
+
 
 
 
